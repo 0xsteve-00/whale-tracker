@@ -2,6 +2,19 @@
 
 Track whale wallets and large transactions across multiple EVM chains in real-time.
 
+## 🎯 Apa Ini?
+
+**Whale Tracker** adalah tool untuk memantau pergerakan wallet besar (whale) di blockchain. Sangat berguna untuk:
+
+- **Smart Money Tracking** — ikuti kemana uang besar bergerak (accumulate/dump)
+- **Exchange Flow** — monitor deposit/withdrawal di Binance, Coinbase, dll
+- **Rug Pull Detection** — deteksi jika whale besar mulai dump token
+- **Trading Signal** — buat signal trading berdasarkan pergerakan whale
+- **Airdrop Hunter** — monitor wallet yang sering dapat airdrop
+
+**Masalah yang diselesaikan:**
+Whale beli/jual duluan sebelum harga berubah. Dengan tool ini, lo tau real-time dan bisa reaksi lebih cepat.
+
 ## Features
 
 - 🐋 Monitor whale wallets (top holders, custom addresses)
