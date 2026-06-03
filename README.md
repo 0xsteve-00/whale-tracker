@@ -16,7 +16,7 @@ Track whale wallets and large transactions across multiple EVM chains in real-ti
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/whale-tracker.git
+git clone https://github.com/0xsteve-00/whale-tracker.git
 cd whale-tracker
 pip install -r requirements.txt
 ```
