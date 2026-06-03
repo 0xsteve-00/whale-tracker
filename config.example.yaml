@@ -1,0 +1,32 @@
+# Whale Tracker Config
+
+chains:
+  eth:
+    rpc: "https://eth.llamarpc.com"
+    explorer_api: "https://api.etherscan.io/api"
+    api_key: ""  # Get free key at https://etherscan.io/apis
+  bsc:
+    rpc: "https://bsc-dataseed.binance.org"
+    explorer_api: "https://api.bscscan.com/api"
+    api_key: ""
+  base:
+    rpc: "https://mainnet.base.org"
+    explorer_api: "https://api.basescan.org/api"
+    api_key: ""
+
+# Minimum native token amount to alert
+min_amount: 100
+
+# Whale addresses file
+whale_file: "whale_addresses.txt"
+
+# Telegram notifications (optional)
+telegram:
+  bot_token: ""
+  chat_id: ""
+
+# Poll interval (seconds)
+poll_interval: 15
+
+# Database
+db: "whale_tracker.db"
